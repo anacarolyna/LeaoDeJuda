@@ -1,0 +1,110 @@
+/* No CSS podemos comentar assim */
+
+/* Anotações para lembrar:
+/* list-style 'none' tira as configurações padrão, tirando as bolinhas *
+ *
+ * Para estilizar o site inteiro, faça *{}, em que '*' significa tudo */
+
+/*Estilos da página index.html*/
+.center{
+    text-align: center;
+}
+body {
+    margin: 0;
+   background-color: rgb(240, 182, 75);
+    
+    background-size: cover; 
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    /*align-items: center*/
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+ nav{
+    margin: 0%; /* Distância fora da estrutura do código, de um conteúdo pra outro */
+    padding: 10px; /* Distância dentro da estrutura do código, de uma tag da outra */
+    background-color: rgb(0, 0, 0);
+}
+ #menu li a{
+    color: rgb(214, 121, 0);
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: rgb(255, 190, 92);
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+border-radius: 20%;
+}
+
+/*.wh-300{
+width: 500px ;
+height: 500px;
+}*/
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+footer{
+    margin: 0%; /* Distância fora da estrutura do código, de um conteúdo pra outro */
+    padding: 1px; /* Distância dentro da estrutura do código, de uma tag da outra */
+    background-color: white;
+}
+
+/*Esilos da página de contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+/* Configurando o título */
+h1{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+}
+
+.alinhar{
+    align-items: center
+}
+.fonte{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.titulo{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo-principal{
+     color: white;
+   
+}
+
+
+
